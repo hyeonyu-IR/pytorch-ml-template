@@ -1,3 +1,5 @@
+![CI](https://github.com/hyeonyu-IR/pytorch-ml-template/actions/workflows/ci.yml/badge.svg)
+
 # PyTorch Machine Learning Project Template
 
 A **reusable, research‑grade PyTorch template repository** for training, evaluating, and reporting deep learning models.
