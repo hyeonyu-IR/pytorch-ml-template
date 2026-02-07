@@ -152,32 +152,3 @@ Create a project branch from it:
 git checkout medical-imaging
 git checkout -b cxr-classification
 ```
-
----
-
-## ✅ CI & Quality
-
-- GitHub Actions runs tests on push/PR
-- Branch protection recommended for `main`
-- Safe checkpoint loading (`weights_only=True`)
-
----
-
-## 📜 License & Citation
-
-This repository is intended for **research and educational use**.
-
-If you use this template in academic work, please cite:
-
-> Yu H, et al. *A reproducible PyTorch training and reporting framework for machine‑learning research.*
-
----
-
-## 🚀 Next Steps
-
-- Plug in a real CXR dataset (NIH/CheXpert CSV schema)
-- Add class prevalence & `pos_weight` for imbalance
-- Select best checkpoints by AUROC for imaging tasks
-- Extend reports with PR‑AUC and calibration
-
-This repo is designed to be **forked, reused, and extended** for future ML projects.
